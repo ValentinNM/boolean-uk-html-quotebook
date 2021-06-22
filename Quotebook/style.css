@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+}
+
+
+main {
+  display: grid;
+  /* grid-template: 
+  ". centre ." 1fr/ 
+  200px 1fr 200px; */
+}
+
+.header{
+  display: grid;
+  grid-area: header;
+  height: 100px;
+  align-content: center;
+  margin-bottom: 30px;
+  background-color: brown;
+}
+
+.centre-grid {
+  display: grid;
+  grid-template:
+  ". centered ." 1fr/
+  1fr 60ch 1fr;
+}
+
+.centered {
+  grid-area: centered;
+}
+
+.centre {
+  max-width: 60ch;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.footer {
+  display: grid;
+  height: 50px;
+  grid-area: footer;
+  margin-top: 40px;
+  background-color: brown;
+  align-content: center;
+}
+
+.visit-more {
+  margin-left: 20px;
+}
+
+
+ p  {
+   font-family: 'Kirang Haerang', cursive;
+   font-size: 20px;
+ }
+
+
+h1 {
+  color: lightcyan;
+  margin-left: 6rem;
+}
+
+  .container {
+    display: grid;
+    gap: 40px;
+  }
+
+  .bg_col {
+    background-color: aquamarine;
+  }
+
+  .bg_col2 {
+    background-color: lightsalmon;
+  }
+
+  .author,
+  .pro {
+    display: grid;
+    padding: 8px;
+    text-align: left;
+    gap: 10px;
+  }
+
+  .author_name{
+    font-size: large;
+    text-align: right;
+    margin-right: 20px;;
+  }
+
+  .inner_grids{
+    
+    height: fit-content;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+  }
+  
